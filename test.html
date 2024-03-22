@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML演習問題</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">株式会社TECH</h1>
+        <ul class="header__list">
+            <li><a href="#">ホーム</a></li>
+            <li><a href="#">企業情報</a></li>
+            <li><a href="#">会社概要</a></li>
+            <li><a href="#">よくある質問</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+        </ul>
+    </header>
+    <div class="firstview">
+        <img src="../img/mv.png" class="firstview__img">
+        <p>最新のテクノロジーで<em>社会問題</em>を解決</p>
+    </div>
+    <div class="company">
+        <h2 class="company">会社概要</h2>
+        <table class="company__profile">
+            <tr>
+                <th>会社名</th>
+                <td>株式会社TECH</td>
+            </tr>
+            <tr>
+                <th>代表者</th>
+                <td>山田 太郎</td>
+            </tr>
+            <tr>
+                <th>所在地</th>
+                <td>東京都渋谷区神宮前</td>
+            </tr>
+            <tr>
+                <th>設立</th>
+                <td>2019/07/17</td>
+            </tr>
+            <tr>
+                <th>従業員数</th>
+                <td>100人</td>
+            </tr>
+            <tr>
+                <th>資本金</th>
+                <td>1000万円</td>
+            </tr>
+        </table>
+    </div>
+    <form>
+        <h2 class="form__heading">お問い合わせ</h2>
+        <div class="form__label">
+            <label class="form__list">会社名<input type="text" class="company-neme"></label>
+        </div>
+        <div class="form__label">
+            <label class="form__list">お名前<input type="text" class="name"></label>
+        </div>
+        <div class="form__label">
+            <label class="form__list">メールアドレス<input type="text" class="email"></label>
+        </div>
+        <div class="form__label">
+            <label class="form__list">お問い合わせ内容<textarea class="textarea" cols="70" rows="10"></textarea></label>
+        </div>
+        <button>お申し込み</button>
+    </form>
+    <small>&copy; 2020 TECH inc.</small>
+</body>
+</html>
